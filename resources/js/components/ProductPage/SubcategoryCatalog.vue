@@ -38,7 +38,7 @@ export default {
 
 .live-plants__body{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin: 0 -15px;
     flex-wrap: wrap;
 }

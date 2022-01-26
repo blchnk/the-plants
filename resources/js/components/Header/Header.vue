@@ -1,6 +1,6 @@
 <template>
     <div class="header-template">
-        <div class="container">
+        <div class="container_main">
             <div class="promo-bar"></div>
             <header class="header" id="header">
                 <nav class="nav header__nav header__nav_top">

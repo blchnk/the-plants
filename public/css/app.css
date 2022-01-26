@@ -11286,3 +11286,168 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "PT_Serif";
+  src: url(/fonts/PTSerif-Regular.otf?4c5d19bb465e2df93e676228c7573603);
+  src: url(/fonts/PTSerif-Regular.eot?d754a8c97f01b5a26195b0c6d67ee901) format("embedded-opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "PT_Serif";
+  src: url(/fonts/PTSerif-Bold.ttf?2c8ccff387efafe1679145590542f4a3);
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Wremena";
+  src: url(/fonts/Wremena-Regular.otf?fb63e4de69355d2f205210375bac4ff0) format("otf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Wremena";
+  src: url(/fonts/Wremena-Bold.otf?2d9d27baf0f4f5f3c45e74c7e04a0ada) format("otf");
+  font-style: normal;
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT_Serif", serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #2d2a24;
+  box-sizing: border-box;
+}
+
+.container_main {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container_inner {
+  width: 100%;
+  max-width: 1345px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+::-moz-selection {
+  color: #ffffff;
+  /* Цвет текста */
+  background: #00ab84;
+  /* Цвет фона */
+}
+
+::selection {
+  color: #ffffff;
+  /* Цвет текста */
+  background: #00ab84;
+  /* Цвет фона */
+}
+
+h1, .h1 {
+  font-family: "Wremena", serif;
+  font-weight: 400;
+  font-size: 70px;
+}
+
+h2, .h2 {
+  font-family: "Wremena", serif;
+  font-size: 48px;
+}
+
+h3, .h3 {
+  font-family: "Wremena", serif;
+  font-size: 36px;
+}
+
+h4, .h4 {
+  font-family: "Wremena", serif;
+  font-size: 24px;
+}
+
+ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+}
+button:focus, button:active {
+  outline: 0 !important;
+}
+
+img {
+  display: block;
+}
+
+input[type=text] {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+.underline-animation {
+  position: relative;
+}
+
+.underline-animation:hover:before {
+  transform: scaleX(1);
+}
+
+.underline-animation:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.3s ease;
+}
+
+.green-btn {
+  padding: 16px 20px;
+  background-color: #00AA83;
+  color: white;
+  cursor: pointer;
+  transition: background-color linear 0.1s;
+}
+.green-btn:hover {
+  background-color: #009d7b;
+}
+
+.chapter__title {
+  margin-bottom: 5px;
+}

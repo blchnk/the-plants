@@ -29,7 +29,7 @@ export default {
 <style lang="scss">
 
 .live-plants__item-wrapper{
-    flex: 1 1 33.3333%;
+    flex: 0 1 33.3333%;
     padding: 20px 15px;
 }
 

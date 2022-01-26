@@ -1,5 +1,5 @@
 <template>
-    <div class="dropdown-menu">
+    <div class="dropdown-nav-menu">
         <div class="dropdown-menu__inner">
             <div class="dropdown-menu__item-wrapper">
                 <h4 class="dropdown-menu__title">
@@ -116,8 +116,8 @@ export default {
 
 <style lang="scss">
 
-.dropdown-menu{
-    position: fixed;
+.dropdown-nav-menu{
+    position: absolute;
     left: 0;
     right: 0;
 
