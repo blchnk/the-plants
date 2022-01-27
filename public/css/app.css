@@ -11311,6 +11311,20 @@ textarea.form-control-lg {
   font-style: normal;
   font-weight: 700;
 }
+.container_main {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.container_inner {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11320,19 +11334,6 @@ textarea.form-control-lg {
   font-style: normal;
   color: #2d2a24;
   box-sizing: border-box;
-}
-
-.container_main {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.container_inner {
-  width: 100%;
-  max-width: 1345px;
-  margin: 0 auto;
-  padding: 0 50px;
 }
 
 ::-moz-selection {

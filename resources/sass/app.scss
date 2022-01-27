@@ -38,11 +38,20 @@
 
 //*********************//
 
-@mixin make-container($max-width: $container-max-widths) {
+@mixin make-container($max-width, $padding-x) {
     width: 100%;
     max-width: $max-width;
     margin: 0 auto;
+    padding: 0 $padding-x;
     //box-sizing: content-box;
+}
+
+.container_main{
+    @include make-container(1440px, 0);
+}
+
+.container_inner{
+    @include make-container(1440px, 40px);
 }
 
 *{
@@ -54,15 +63,6 @@
     font-style: normal;
     color: #2d2a24;
     box-sizing: border-box;
-}
-
-.container_main{
-    @include make-container(1440px);
-}
-
-.container_inner{
-    @include make-container(1345px);
-    padding: 0 50px;
 }
 
 ::selection {
