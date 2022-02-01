@@ -4540,7 +4540,7 @@ textarea.form-control-lg {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 1rem 0.5rem;
 }
 
 .card-title {
@@ -4557,11 +4557,11 @@ textarea.form-control-lg {
 }
 
 .card-link + .card-link {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .card-header {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
@@ -4571,7 +4571,7 @@ textarea.form-control-lg {
 }
 
 .card-footer {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -4580,9 +4580,9 @@ textarea.form-control-lg {
 }
 
 .card-header-tabs {
-  margin-right: -0.5rem;
+  margin-right: -0.25rem;
   margin-bottom: -0.5rem;
-  margin-left: -0.5rem;
+  margin-left: -0.25rem;
   border-bottom: 0;
 }
 .card-header-tabs .nav-link.active {
@@ -4591,8 +4591,8 @@ textarea.form-control-lg {
 }
 
 .card-header-pills {
-  margin-right: -0.5rem;
-  margin-left: -0.5rem;
+  margin-right: -0.25rem;
+  margin-left: -0.25rem;
 }
 
 .card-img-overlay {
@@ -11444,6 +11444,7 @@ input[type=text] {
   background-color: #00AA83;
   color: white;
   cursor: pointer;
+  border-radius: 1px;
   transition: background-color linear 0.1s;
 }
 .green-btn:hover {

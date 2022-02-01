@@ -3,15 +3,25 @@
         <Header></Header>
 
         <div class="container_inner">
-            <div class="single-product-page__section">
-                <div class="single-product-page__gallery gallery">
-                    <img :src="require('/images/products/' + product.image).default" alt="" class="gallery">
+            <div class="product-profile-body row d-flex py-4">
+                <div class="product-img-col col-lg-5 col-12">
+                    <img :src="require('/images/products/' + product.image).default" alt=""
+                         class="product-img img-fluid mx-auto">
                 </div>
+                <div class="product-details-col col-lg-5 col-12">
+                    <h2 class="single-product__name mb-1">{{ product.name }}</h2>
+                    <h4 class="single-product__price mb-2">{{ product.price }} ₽</h4>
+                    <button class="button green-btn add-product-btn w-100" @click="addToCart()">В корзину</button>
 
-                <div class="single-product-page__details single-product">
-                    <h2 class="single-product__name">{{ product.name }}</h2>
-                    <p class="single-product__price">{{ product.price }}₽</p>
-                    <button class="btn green-btn add-product-btn" @click="addToCart()">В корзину</button>
+                    <div class="row product-details mt-3">
+                        <div class="col details-title-wrapper">
+                            <p class="details-title">Детали</p>
+                        </div>
+                        <div class="col-9 details-text">
+<!--                            <p>{{ product.description }}</p>-->
+                            <p class="details-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi facilis ipsam mollitia praesentium rerum, sit tempore. Ab blanditiis dolorum error minima minus, nihil, nisi odio porro quae quaerat reprehenderit vero?</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -32,7 +42,7 @@ export default {
         Footer
     },
     data() {
-        return{}
+        return {}
     },
     props: {
         product: {
@@ -41,7 +51,7 @@ export default {
     },
     methods: {
         ...mapActions(['SET_CART']),
-        addToCart: function (){
+        addToCart: function () {
             console.log(this.product);
             this.SET_CART(this.product)
         }
@@ -54,31 +64,19 @@ export default {
 
 <style lang="scss">
 
-.single-product-page__section{
-    display: flex;
-    margin-top: 50px;
-}
-
-.gallery{
-    max-height: 708px;
-    max-width: 508px;
-    padding-right: 50px;
-}
-
-.single-product-page__details{
-    //text-align: left;
-    display: flex;
-    flex-direction: column;
-    //width: 100%;
-    width: 510px;
-}
-
-.single-product__price{
-    font-size: 26px;
-}
-
-.add-product-btn{
-    margin: 20px 0;
+@media (max-width: 1024px) {
+    .container_inner{
+        max-width: 750px;
+    }
+    .product-details{
+        border-top: gray 1px solid;
+        border-bottom: gray 1px solid;
+        padding: 30px 0;
+    }
+    .details-title{
+        font-size: 24px;
+        font-weight: bold;
+    }
 }
 
 </style>

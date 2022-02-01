@@ -2,9 +2,9 @@
     <div class="new-arrivals__item-wrapper">
         <div class="card">
             <img class="card-img-top" :src="require('/images/products/' + product_data.image).default" alt="">
-            <div class="card-body d-flex justify-content-between">
+            <div class="card-body d-flex justify-content-between flex-lg-row flex-column">
                 <a href="" class="card-name stretched-link card-link">{{ product_data.name }}</a>
-                <div class="card-price">{{ product_data.price }} ₽</div>
+                <p class="card-price text-nowrap">{{ product_data.price }} ₽</p>
             </div>
         </div>
     </div>
@@ -31,11 +31,6 @@ export default {
 <style lang="scss">
 
 @media(max-width: 1024px) {
-    .card-body{
-        flex-wrap: wrap;
-        padding: 0.5rem 1rem;
-        flex-direction: column;
-    }
     .card-price, .card-name{
         font-size: 16px;
     }
