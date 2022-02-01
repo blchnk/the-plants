@@ -646,7 +646,7 @@ progress {
     max-width: 720px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
@@ -1313,7 +1313,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .col-lg {
     flex: 1 0 0%;
   }
@@ -2133,7 +2133,7 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 }
-@media (max-width: 991.98px) {
+@media (max-width: 1023.98px) {
   .table-responsive-lg {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -3621,7 +3621,7 @@ textarea.form-control-lg {
     left: auto;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .dropdown-menu-lg-start {
     --bs-position: start;
   }
@@ -4222,7 +4222,7 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4508,11 +4508,12 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  height: 100%;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 0;
 }
 .card > hr {
   margin-right: 0;
@@ -4524,13 +4525,13 @@ textarea.form-control-lg {
 }
 .card > .list-group:first-child {
   border-top-width: 0;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 .card > .list-group:last-child {
   border-bottom-width: 0;
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .card > .card-header + .list-group,
 .card > .list-group + .card-footer {
@@ -4566,7 +4567,7 @@ textarea.form-control-lg {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-header:first-child {
-  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+  border-radius: 0 0 0 0;
 }
 
 .card-footer {
@@ -4575,7 +4576,7 @@ textarea.form-control-lg {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-footer:last-child {
-  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+  border-radius: 0 0 0 0;
 }
 
 .card-header-tabs {
@@ -4601,7 +4602,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  border-radius: calc(0.25rem - 1px);
+  border-radius: 0;
 }
 
 .card-img,
@@ -4612,14 +4613,14 @@ textarea.form-control-lg {
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .card-img,
 .card-img-bottom {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .card-group > .card {
@@ -5196,7 +5197,7 @@ textarea.form-control-lg {
     border-left-width: 1px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .list-group-horizontal-lg {
     flex-direction: row;
   }
@@ -5614,7 +5615,7 @@ textarea.form-control-lg {
     max-width: 300px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .modal-lg,
 .modal-xl {
     max-width: 800px;
@@ -5690,7 +5691,7 @@ textarea.form-control-lg {
     border-radius: 0;
   }
 }
-@media (max-width: 991.98px) {
+@media (max-width: 1023.98px) {
   .modal-fullscreen-lg-down {
     width: 100vw;
     max-width: none;
@@ -6560,7 +6561,7 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .sticky-lg-top {
     position: -webkit-sticky;
     position: sticky;
@@ -9275,7 +9276,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .float-lg-start {
     float: left !important;
   }
@@ -11451,4 +11452,8 @@ input[type=text] {
 
 .chapter__title {
   margin-bottom: 5px;
+}
+
+.section-title {
+  padding: 2.25rem 0 0.25rem;
 }

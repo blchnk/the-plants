@@ -5908,6 +5908,53 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -5992,13 +6039,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 //
 //
 //
@@ -6011,17 +6051,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "NewArrivalsCatalogItem",
   props: {
@@ -6033,24 +6062,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     }
   },
   data: function data() {
-    return {
-      active: false
-    };
-  },
-  methods: _objectSpread(_objectSpread({}, (0,vuex__WEBPACK_IMPORTED_MODULE_0__.mapActions)(['SET_CART'])), {}, {
-    mouseOver: function mouseOver() {
-      this.active = true;
-    },
-    mouseLeave: function mouseLeave() {
-      this.active = false;
-    },
-    addToCart: function addToCart() {
-      this.SET_CART(this.product_data);
-    }
-  }),
-  computed: {},
-  mounted: function mounted() {
-    this.$set(this.product_data, 'quantity', '1');
+    return {};
   }
 });
 
@@ -6151,8 +6163,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "ProductCatalog",
@@ -6182,9 +6192,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-//
-//
-//
 //
 //
 //
@@ -11685,7 +11692,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".collections {\n  margin-top: 60px;\n}\n.collections__body {\n  display: flex;\n  justify-content: center;\n  margin: 0 -15px;\n}\n@media (max-width: 1024px) {\n.collections__body {\n    margin: 0 -10px;\n}\n}\n@media (max-width: 768px) {\n.collections__body {\n    flex-wrap: wrap;\n}\n.collections {\n    margin-top: 30px;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".collections__body {\n  display: flex;\n  justify-content: center;\n  margin: 0 -15px;\n}\n@media (max-width: 1024px) {\n.collections__body {\n    margin: 0 -10px;\n}\n}\n@media (max-width: 768px) {\n.collections__body {\n    flex-wrap: wrap;\n}\n.collections {\n    margin-top: 30px;\n}\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -11709,7 +11716,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".collection__item-wrapper {\n  flex: 0 1 25%;\n  padding: 20px 15px;\n}\n.collection-item__img {\n  height: auto;\n  width: 100%;\n  padding-bottom: 10px;\n}\n.collection-item__title {\n  font-family: PT_Serif, serif;\n  font-size: 30px;\n}\n.link-icon-arrow-right {\n  margin-left: 10px;\n  margin-top: 5px;\n}\n.collection__title-container {\n  display: flex;\n  align-items: center;\n}\n@media (max-width: 1024px) {\n.collection__item-wrapper {\n    padding: 20px 10px;\n}\n.collection-item__title {\n    font-size: 24px;\n}\n}\n@media (max-width: 768px) {\n.collection__item-wrapper {\n    flex: 0 1 50%;\n}\n}\n@media (max-width: 425px) {\n.collection__item-wrapper {\n    flex: 0 1 100%;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".collection__item-wrapper {\n  flex: 0 1 25%;\n  padding: 0 15px;\n}\n.collection-item__img {\n  height: auto;\n  width: 100%;\n  padding-bottom: 10px;\n}\n.collection-item__title {\n  font-family: PT_Serif, serif;\n  font-size: 30px;\n}\n.link-icon-arrow-right {\n  margin-left: 10px;\n  margin-top: 5px;\n}\n.collection__title-container {\n  display: flex;\n  align-items: center;\n}\n@media (max-width: 1024px) {\n.collection__item-wrapper {\n    padding: 20px 10px;\n}\n.collection-item__title {\n    font-size: 24px;\n}\n}\n@media (max-width: 768px) {\n.collection__item-wrapper {\n    flex: 0 1 50%;\n}\n}\n@media (max-width: 425px) {\n.collection__item-wrapper {\n    flex: 0 1 100%;\n}\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -11853,7 +11860,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".new-arrivals {\n  margin-top: 26px;\n}\n.new-arrivals__body {\n  display: flex;\n  justify-content: center;\n  margin: 0 -15px;\n}\n@media (max-width: 1024px) {\n.new-arrivals__body {\n    margin: 0 -10px;\n}\n}\n@media (max-width: 768px) {\n.new-arrivals__body {\n    flex-wrap: wrap;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "@media (max-width: 1024px) {\n.container_inner {\n    padding: 0 15px;\n}\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -11877,7 +11884,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".new-arrivals__item-wrapper {\n  flex: 0 1 25%;\n  padding: 20px 15px;\n}\n.new-arrivals__img {\n  width: 100%;\n  height: auto;\n}\n.new-arrivals__link {\n  display: block;\n  position: relative;\n}\n.product-item__title-and-price-wrapper {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.product-item__tittle {\n  margin-top: 10px;\n}\n.product-item__price {\n  opacity: 80%;\n  margin-top: 8px;\n}\n.product-item__overflow {\n  position: absolute;\n  top: 0;\n  height: 100%;\n  width: 100%;\n  background-color: rgba(0, 0, 0, 0.3);\n}\n.product-fade-enter-active, .product-fade-leave-active {\n  transition: all 0.2s linear;\n}\n.product-fade-enter, .product-fade-leave-to {\n  opacity: 0;\n}\n.buy-now-btn {\n  position: absolute;\n}\n.add-to-cart-btn {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  transition: background-color linear 0.1s;\n}\n.add-to-cart-btn:hover {\n  background-color: #009d7b;\n}\n@media (max-width: 1024px) {\n.new-arrivals__item-wrapper {\n    padding: 20px 10px;\n}\n}\n@media (max-width: 768px) {\n.new-arrivals__item-wrapper {\n    flex: 0 1 50%;\n}\n}\n@media (max-width: 425px) {\n.live-plants__item-wrapper {\n    flex: 0 1 100%;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "@media (max-width: 1024px) {\n.card-body {\n    flex-wrap: wrap;\n    padding: 0.5rem 1rem;\n    flex-direction: column;\n}\n.card-price, .card-name {\n    font-size: 16px;\n}\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -11925,31 +11932,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".live-plants {\n  margin-top: 26px;\n}\n.live-plants__body {\n  display: flex;\n  justify-content: left;\n  margin: 0 -15px;\n  flex-wrap: wrap;\n}\n@media (max-width: 1024px) {\n.live-plants__body {\n    margin: 0 -10px;\n}\n}", ""]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ProductPage/SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss&":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ProductPage/SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss& ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-// Imports
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, ".live-plants__item-wrapper {\n  flex: 0 1 33.3333%;\n  padding: 20px 15px;\n}\n.live-plants__img-link {\n  display: block;\n  position: relative;\n}\n.live-plants__img {\n  width: 100%;\n  height: auto;\n}\n.live-plants__title-and-price-wrapper {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.live-plants__tittle-link {\n  margin-top: 10px;\n}\n.live-plants__price {\n  opacity: 80%;\n  margin-top: 8px;\n}\n@media (max-width: 1024px) {\n.live-plants__item-wrapper {\n    padding: 20px 10px;\n    flex: 1 1 50%;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -12461,6 +12444,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./public/images/products/Poppy_DIY_Tablet_EditorialBlock_900x.jpg":
+/*!*************************************************************************!*\
+  !*** ./public/images/products/Poppy_DIY_Tablet_EditorialBlock_900x.jpg ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/Poppy_DIY_Tablet_EditorialBlock_900x.jpg?efbe946f7686e91fac0bc00c0bd935fd");
+
+/***/ }),
+
 /***/ "./public/images/products/Ric Rac Cactus.jpg":
 /*!***************************************************!*\
   !*** ./public/images/products/Ric Rac Cactus.jpg ***!
@@ -12578,6 +12576,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/ZZ Plant.jpg?7bad72b36d4a7656b91d27a07b56efb1");
+
+/***/ }),
+
+/***/ "./public/images/products/the-sill_the-day-off-bouquet_variant_02_360x.jpg":
+/*!*********************************************************************************!*\
+  !*** ./public/images/products/the-sill_the-day-off-bouquet_variant_02_360x.jpg ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/the-sill_the-day-off-bouquet_variant_02_360x.jpg?ebd8c5229453f733625f71f8530b4d12");
 
 /***/ }),
 
@@ -31154,36 +31167,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ProductPage/SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss&":
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ProductPage/SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SubcategoryCatalogItem_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ProductPage/SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss&");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SubcategoryCatalogItem_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SubcategoryCatalogItem_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ProductPage/SubcategoryPage.vue?vue&type=style&index=0&lang=scss&":
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ProductPage/SubcategoryPage.vue?vue&type=style&index=0&lang=scss& ***!
@@ -32039,17 +32022,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _SubcategoryCatalogItem_vue_vue_type_template_id_7b25ebec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SubcategoryCatalogItem.vue?vue&type=template&id=7b25ebec& */ "./resources/js/components/ProductPage/SubcategoryCatalogItem.vue?vue&type=template&id=7b25ebec&");
 /* harmony import */ var _SubcategoryCatalogItem_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SubcategoryCatalogItem.vue?vue&type=script&lang=js& */ "./resources/js/components/ProductPage/SubcategoryCatalogItem.vue?vue&type=script&lang=js&");
-/* harmony import */ var _SubcategoryCatalogItem_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/components/ProductPage/SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
-;
 
 
 /* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _SubcategoryCatalogItem_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _SubcategoryCatalogItem_vue_vue_type_template_id_7b25ebec___WEBPACK_IMPORTED_MODULE_0__.render,
   _SubcategoryCatalogItem_vue_vue_type_template_id_7b25ebec___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
@@ -32513,19 +32494,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SubcategoryCatalog_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SubcategoryCatalog.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ProductPage/SubcategoryCatalog.vue?vue&type=style&index=0&lang=scss&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/ProductPage/SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss&":
-/*!**********************************************************************************************************!*\
-  !*** ./resources/js/components/ProductPage/SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss& ***!
-  \**********************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_node_modules_vue_loader_lib_index_js_vue_loader_options_SubcategoryCatalogItem_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!../../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ProductPage/SubcategoryCatalogItem.vue?vue&type=style&index=0&lang=scss&");
 
 
 /***/ }),
@@ -33021,7 +32989,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "chapter__title" }, [
-      _c("h2", [_vm._v("Коллекции")]),
+      _c("h2", { staticClass: "section-title" }, [_vm._v("Коллекции")]),
     ])
   },
 ]
@@ -33804,7 +33772,7 @@ var staticRenderFns = [
         _c("p", { staticClass: "main-content__text" }, [
           _vm._v("Принесите немного уюта в свой дом вместе с нашими "),
           _c("br"),
-          _vm._v(" пышными растениями."),
+          _vm._v(" пышными\n                        растениями."),
         ]),
         _vm._v(" "),
         _c("a", { staticClass: "buy-now-link", attrs: { href: "" } }, [
@@ -33826,20 +33794,143 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "about-baby-plants" }, [
-      _c(
-        "a",
-        { staticClass: "about-baby-plants__img-link", attrs: { href: "#" } },
-        [
-          _c("img", {
-            staticClass: "about-baby-plants__img",
-            attrs: {
-              src: "/images/main/PLNTS-HOME-Learn-About-Babyplnts-Banner.png",
-              alt: "",
-            },
-          }),
-        ]
-      ),
+    return _c("div", { staticClass: "container_inner" }, [
+      _c("div", { staticClass: "favourites-block" }, [
+        _c("h2", { staticClass: "section-title favourites-title" }, [
+          _vm._v("Вам понравится"),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-7 col-md-12" }, [
+            _c("img", {
+              staticClass: "img-fluid",
+              attrs: {
+                src: "/images/products/Poppy_DIY_Tablet_EditorialBlock_900x.jpg",
+              },
+            }),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-5 pt-lg-0 pt-4" }, [
+            _c("div", { staticClass: "row gy-4 gx-lg-4 gx-2" }, [
+              _c("div", { staticClass: "col-6" }, [
+                _c("div", { staticClass: "card" }, [
+                  _c("img", {
+                    staticClass: "card-img-top img-fluid",
+                    attrs: {
+                      src: "/images/products/the-sill_the-day-off-bouquet_variant_02_360x.jpg",
+                      alt: "",
+                    },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "card-body d-flex justify-content-between" },
+                    [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "card-name card-link stretched-link",
+                          attrs: { href: "" },
+                        },
+                        [_vm._v("Name")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-price" }, [_vm._v("Price")]),
+                    ]
+                  ),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-6" }, [
+                _c("div", { staticClass: "card" }, [
+                  _c("img", {
+                    staticClass: "card-img-top img-fluid",
+                    attrs: {
+                      src: "/images/products/the-sill_the-day-off-bouquet_variant_02_360x.jpg",
+                      alt: "",
+                    },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "card-body d-flex justify-content-between" },
+                    [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "card-name card-link stretched-link",
+                          attrs: { href: "" },
+                        },
+                        [_vm._v("Name")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-price" }, [_vm._v("Price")]),
+                    ]
+                  ),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-6" }, [
+                _c("div", { staticClass: "card" }, [
+                  _c("img", {
+                    staticClass: "card-img-top img-fluid",
+                    attrs: {
+                      src: "/images/products/the-sill_the-day-off-bouquet_variant_02_360x.jpg",
+                      alt: "",
+                    },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "card-body d-flex justify-content-between" },
+                    [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "card-name card-link stretched-link",
+                          attrs: { href: "" },
+                        },
+                        [_vm._v("Name")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-price" }, [_vm._v("Price")]),
+                    ]
+                  ),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-6" }, [
+                _c("div", { staticClass: "card" }, [
+                  _c("img", {
+                    staticClass: "card-img-top img-fluid",
+                    attrs: {
+                      src: "/images/products/the-sill_the-day-off-bouquet_variant_02_360x.jpg",
+                      alt: "",
+                    },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "card-body d-flex justify-content-between" },
+                    [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "card-name card-link stretched-link",
+                          attrs: { href: "" },
+                        },
+                        [_vm._v("Name")]
+                      ),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-price" }, [_vm._v("Price")]),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]),
     ])
   },
 ]
@@ -33871,7 +33962,7 @@ var render = function () {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "new-arrivals__body" },
+        { staticClass: "cards-grid row row-cols-2 row-cols-lg-4 g-4" },
         _vm._l(_vm.PRODUCTS, function (product) {
           return _c("NewArrivalsCatalogItem", {
             key: product.id,
@@ -33889,7 +33980,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "chapter__title" }, [
-      _c("h2", [_vm._v("Новые поступления")]),
+      _c("h2", { staticClass: "section-title" }, [_vm._v("Новые поступления")]),
     ])
   },
 ]
@@ -33916,51 +34007,26 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "new-arrivals__item-wrapper" }, [
-    _c("div", { staticClass: "new-arrivals__item product-item" }, [
-      _c(
-        "a",
-        {
-          staticClass: "new-arrivals__link",
-          on: { mouseover: _vm.mouseOver, mouseleave: _vm.mouseLeave },
+    _c("div", { staticClass: "card" }, [
+      _c("img", {
+        staticClass: "card-img-top",
+        attrs: {
+          src: __webpack_require__("./public/images/products sync recursive ^\\.\\/.*$")("./" + _vm.product_data.image).default,
+          alt: "",
         },
-        [
-          _c("img", {
-            staticClass: "new-arrivals__img",
-            attrs: {
-              src: __webpack_require__("./public/images/products sync recursive ^\\.\\/.*$")("./" + _vm.product_data.image)
-                .default,
-              alt: "",
-            },
-          }),
-          _vm._v(" "),
-          _c("transition", { attrs: { name: "product-fade" } }, [
-            _vm.active
-              ? _c("div", { staticClass: "product-item__overflow overflow" }, [
-                  _c(
-                    "button",
-                    {
-                      staticClass: "green-btn add-to-cart-btn",
-                      on: {
-                        click: function ($event) {
-                          return _vm.addToCart()
-                        },
-                      },
-                    },
-                    [_vm._v("Добавить в корзину")]
-                  ),
-                ])
-              : _vm._e(),
-          ]),
-        ],
-        1
-      ),
+      }),
       _vm._v(" "),
-      _c("div", { staticClass: "product-item__title-and-price-wrapper" }, [
-        _c("a", { staticClass: "product-item__tittle", attrs: { href: "" } }, [
-          _vm._v(_vm._s(_vm.product_data.name)),
-        ]),
+      _c("div", { staticClass: "card-body d-flex justify-content-between" }, [
+        _c(
+          "a",
+          {
+            staticClass: "card-name stretched-link card-link",
+            attrs: { href: "" },
+          },
+          [_vm._v(_vm._s(_vm.product_data.name))]
+        ),
         _vm._v(" "),
-        _c("div", { staticClass: "product-item__price" }, [
+        _c("div", { staticClass: "card-price" }, [
           _vm._v(_vm._s(_vm.product_data.price) + " ₽"),
         ]),
       ]),
@@ -34066,19 +34132,17 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container_inner" }, [
-    _c("div", { staticClass: "live-plants" }, [
-      _c(
-        "div",
-        { staticClass: "live-plants__body" },
-        _vm._l(_vm.products, function (product) {
-          return _c("SubcategoryCatalogItem", {
-            key: product.id,
-            attrs: { product: product },
-          })
-        }),
-        1
-      ),
-    ]),
+    _c(
+      "div",
+      { staticClass: "cards-grid row row-cols-2 row-cols-lg-3 g-4" },
+      _vm._l(_vm.products, function (product) {
+        return _c("SubcategoryCatalogItem", {
+          key: product.id,
+          attrs: { product: product },
+        })
+      }),
+      1
+    ),
   ])
 }
 var staticRenderFns = []
@@ -34104,33 +34168,27 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "live-plants__item-wrapper" }, [
-    _c("div", { staticClass: "live-plants__item" }, [
-      _c(
-        "a",
-        {
-          staticClass: "live-plants__img-link",
-          attrs: { href: "/products/" + _vm.product.id },
+  return _c("div", { staticClass: "col" }, [
+    _c("div", { staticClass: "card" }, [
+      _c("img", {
+        staticClass: "card-img-top",
+        attrs: {
+          src: __webpack_require__("./public/images/products sync recursive ^\\.\\/.*$")("./" + _vm.product.image).default,
+          alt: "",
         },
-        [
-          _c("img", {
-            staticClass: "live-plants__img",
-            attrs: {
-              src: __webpack_require__("./public/images/products sync recursive ^\\.\\/.*$")("./" + _vm.product.image).default,
-              alt: "",
-            },
-          }),
-        ]
-      ),
+      }),
       _vm._v(" "),
-      _c("div", { staticClass: "live-plants__title-and-price-wrapper" }, [
+      _c("div", { staticClass: "card-body d-flex justify-content-between" }, [
         _c(
           "a",
-          { staticClass: "live-plants__title-link", attrs: { href: "#" } },
+          {
+            staticClass: "card-name card-link stretched-link",
+            attrs: { href: "/products/" + _vm.product.id },
+          },
           [_vm._v(_vm._s(_vm.product.name))]
         ),
         _vm._v(" "),
-        _c("div", { staticClass: "live-plants__price" }, [
+        _c("p", { staticClass: "card-price" }, [
           _vm._v(_vm._s(_vm.product.price)),
         ]),
       ]),
@@ -34191,7 +34249,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
+    return _c("div", { staticClass: "container_main" }, [
       _c("div", { staticClass: "filter-bar" }, [
         _c("p", { staticClass: "filter-bar__subtitle" }, [
           _vm._v("СОРТИРОВАТЬ ПО"),
@@ -47712,6 +47770,7 @@ var map = {
 	"./Monstera_Deliciosa.jpg": "./public/images/products/Monstera_Deliciosa.jpg",
 	"./Pet-Friendly Plant Parent Set.jpg": "./public/images/products/Pet-Friendly Plant Parent Set.jpg",
 	"./Plant Parent Set.jpg": "./public/images/products/Plant Parent Set.jpg",
+	"./Poppy_DIY_Tablet_EditorialBlock_900x.jpg": "./public/images/products/Poppy_DIY_Tablet_EditorialBlock_900x.jpg",
 	"./Ric Rac Cactus.jpg": "./public/images/products/Ric Rac Cactus.jpg",
 	"./Succulent Assortment.jpg": "./public/images/products/Succulent Assortment.jpg",
 	"./The Easy Care Bundle.jpg": "./public/images/products/The Easy Care Bundle.jpg",
@@ -47719,7 +47778,8 @@ var map = {
 	"./The Pet-Friendly Bundle.jpg": "./public/images/products/The Pet-Friendly Bundle.jpg",
 	"./The Vertical Space Bundle.jpg": "./public/images/products/The Vertical Space Bundle.jpg",
 	"./The_Monstera&Hoya.png": "./public/images/products/The_Monstera&Hoya.png",
-	"./ZZ Plant.jpg": "./public/images/products/ZZ Plant.jpg"
+	"./ZZ Plant.jpg": "./public/images/products/ZZ Plant.jpg",
+	"./the-sill_the-day-off-bouquet_variant_02_360x.jpg": "./public/images/products/the-sill_the-day-off-bouquet_variant_02_360x.jpg"
 };
 
 

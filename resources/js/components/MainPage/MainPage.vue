@@ -6,7 +6,8 @@
                 <div class="intro__main-content main-content">
                     <div class="main-content__text-block">
                         <h1 class="main-content__title">Цветочный магазин</h1>
-                        <p class="main-content__text" >Принесите немного уюта в свой дом вместе с нашими <br> пышными растениями.</p>
+                        <p class="main-content__text">Принесите немного уюта в свой дом вместе с нашими <br> пышными
+                            растениями.</p>
                         <a href="" class="buy-now-link">
                             <button class="button green-btn buy-now-btn">Купить сейчас</button>
                         </a>
@@ -21,10 +22,56 @@
         <main>
             <NewArrivalsCatalog></NewArrivalsCatalog>
             <Collections></Collections>
-            <div class="about-baby-plants">
-                <a class="about-baby-plants__img-link" href="#">
-                    <img class="about-baby-plants__img" src="/images/main/PLNTS-HOME-Learn-About-Babyplnts-Banner.png" alt="">
-                </a>
+
+            <div class="container_inner">
+                <div class="favourites-block">
+                    <h2 class="section-title favourites-title">Вам понравится</h2>
+                    <div class="row">
+                        <div class="col-lg-7 col-md-12">
+                            <img class="img-fluid" src="/images/products/Poppy_DIY_Tablet_EditorialBlock_900x.jpg">
+                        </div>
+                        <div class="col-lg-5 pt-lg-0 pt-4">
+                            <div class="row gy-4 gx-lg-4 gx-2">
+                                <div class="col-6">
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="/images/products/the-sill_the-day-off-bouquet_variant_02_360x.jpg" alt="">
+                                        <div class="card-body d-flex justify-content-between">
+                                            <a href="" class="card-name card-link stretched-link">Name</a>
+                                            <p class="card-price">Price</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="/images/products/the-sill_the-day-off-bouquet_variant_02_360x.jpg" alt="">
+                                        <div class="card-body d-flex justify-content-between">
+                                            <a href="" class="card-name card-link stretched-link">Name</a>
+                                            <p class="card-price">Price</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="/images/products/the-sill_the-day-off-bouquet_variant_02_360x.jpg" alt="">
+                                        <div class="card-body d-flex justify-content-between">
+                                            <a href="" class="card-name card-link stretched-link">Name</a>
+                                            <p class="card-price">Price</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card">
+                                        <img class="card-img-top img-fluid" src="/images/products/the-sill_the-day-off-bouquet_variant_02_360x.jpg" alt="">
+                                        <div class="card-body d-flex justify-content-between">
+                                            <a href="" class="card-name card-link stretched-link">Name</a>
+                                            <p class="card-price">Price</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
 
@@ -71,7 +118,7 @@ export default {
     padding: 0 40px;
 }
 
-.intro__img{
+.intro__img {
     width: 700px;
     max-width: 100%;
     height: auto;
@@ -84,7 +131,7 @@ export default {
     padding-right: 10px;
 }
 
-.main-content__text{
+.main-content__text {
     font-size: 20px;
     opacity: 70%;
 }
@@ -97,9 +144,10 @@ export default {
     margin-top: 40px;
 }
 
-.about-baby-plants__img{
+.about-baby-plants__img {
     max-width: 100%;
 }
+
 
 @media (max-width: 1024px) {
     .intro__main-content {

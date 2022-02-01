@@ -2,9 +2,9 @@
     <div class="container_inner">
         <div class="new-arrivals">
             <div class="chapter__title">
-                <h2>Новые поступления</h2>
+                <h2 class="section-title">Новые поступления</h2>
             </div>
-            <div class="new-arrivals__body">
+            <div class="cards-grid row row-cols-2 row-cols-lg-4 g-4">
                 <NewArrivalsCatalogItem v-for="product in PRODUCTS"
                                         :key="product.id"
                                         :product_data = product>
@@ -35,25 +35,9 @@ export default {
 
 <style lang="scss">
 
-.new-arrivals{
-    margin-top: 26px;
-}
-
-.new-arrivals__body{
-    display: flex;
-    justify-content: center;
-    margin: 0 -15px;
-}
-
 @media(max-width: 1024px) {
-    .new-arrivals__body{
-        margin: 0 -10px;
-    }
-};
-
-@media(max-width: 768px) {
-    .new-arrivals__body{
-        flex-wrap: wrap;
+    .container_inner{
+        padding: 0 15px;
     }
 };
 

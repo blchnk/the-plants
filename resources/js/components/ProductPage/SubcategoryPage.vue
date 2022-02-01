@@ -6,7 +6,7 @@
             <h2 class="page-title">{{ subcategory_name.name }}</h2>
         </div>
 
-        <div class="container">
+        <div class="container_main">
             <div class="filter-bar">
                 <p class="filter-bar__subtitle">СОРТИРОВАТЬ ПО</p>
                 <ul class="filter-tabs">

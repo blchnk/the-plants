@@ -37,11 +37,7 @@ export default {
 
 .collection__item-wrapper {
     flex: 0 1 25%;
-    padding: 20px 15px;
-}
-
-.collections__collection-item {
-
+    padding: 0 15px;
 }
 
 .collection-item__img {

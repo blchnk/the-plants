@@ -2,7 +2,7 @@
     <div class="container_inner">
         <div class="collections">
             <div class="chapter__title">
-                <h2>Коллекции</h2>
+                <h2 class="section-title">Коллекции</h2>
             </div>
             <div class="collections__body">
                 <CollectionsItem v-for="collection in COLLECTIONS"
@@ -30,10 +30,6 @@ export default {
 </script>
 
 <style lang="scss">
-
-.collections {
-    margin-top: 60px;
-}
 
 .collections__body {
     display: flex;
